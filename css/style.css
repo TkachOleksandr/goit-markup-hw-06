@@ -41,27 +41,6 @@ ul{
     list-style-type: none;
 }
 
-.section-title-h2{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.contact_info{
-    font-style: normal
-}
-.first_part_of_the_list{
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.first_part_of_the_list:hover {
-    color: #404bbf;
-}
-
-.first_part_of_the_list:focus {
-    color: #404bbf;
-}
 .section-title{
     font-family: "Roboto", system-ui;
     font-weight: 700;
@@ -70,19 +49,14 @@ ul{
     text-align: center;
 }
 
-.section_title_h2{
+.section-title-h2{
     font-size: 36px;
     line-height: 111%;
-    text-transform: capitalize
 }
 
 a{
     color: var(--navy-blue);
     text-decoration: none;
-}
-
-.portfolio_section{
-    background-color: #F4F4FD;
 }
 
 .logo{
@@ -91,13 +65,12 @@ a{
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: "Raleway, sans-serif", system-ui;
+    font-family: "Raleway", system-ui;
     font-style: normal;
-    color: var(--iris);
 }
 
 .logo_part{
-    color:  var(--navy-blue);
+    color:  var(--iris);
 }
 .effective_solutions{
     background-color: var(--navy-blue)  ;
@@ -112,25 +85,8 @@ a{
     width: 169px;
     height: 56px;
     border-radius: 4px;
-    font-family:  "Roboto", sans-serif;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
 }
 
-.footer_text{
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: #F4F4FD;
-}
-.button:hover{
- background-color: #404BBF
-}
-
-.button:focus {
-    background-color: #404BBF
-}
 .our_team{
     background-color: var(--cloud);
 }
@@ -151,9 +107,7 @@ footer{
 }
 
 .subtext{
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
 footer a{
