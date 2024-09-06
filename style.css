@@ -3,6 +3,7 @@ body{
     font-family: "Roboto","Raleway", system-ui; 
     margin: 0;
 }
+
 :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
@@ -17,19 +18,27 @@ body{
     --white: #fff;
     --dairy: #fcfcfc;
 }
+
 :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
+
 header{
     height: 72px;
 }
+
 h1{
     color: var(--white);
     font-size: 56px;
     line-height: 107%;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+ul{
+    list-style-type: none;
+}
+
 .section-title{
     font-family: "Roboto", system-ui;
     font-weight: 700;
@@ -37,6 +46,7 @@ h1{
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .section-title-h2{
     font-size: 36px;
     line-height: 111%;
@@ -46,9 +56,7 @@ a{
     color: var(--navy-blue);
     text-decoration: none;
 }
-footer a{
-    color: var(--cloud);
-}
+
 .logo{
     font-weight: 700;
     font-size: 18px;
@@ -58,6 +66,7 @@ footer a{
     font-family: "Raleway", system-ui;
     font-style: normal;
 }
+
 .logo_part{
     color:  var(--iris);
 }
@@ -79,21 +88,26 @@ footer a{
 .our_team{
     background-color: var(--cloud);
 }
+
 .our_team,li{
     background-color: var(--white);
 }
+
 footer{
     background-color: #2E2F42;
     color: var(--cloud);
     height: 312px;
 }
+
 .footer_content{
     width: 264px;
     height: 112px;
 }
+
 .subtext{
     color: var(--slate);
 }
-ul{
-    list-style-type: none;
+
+footer a{
+    color: var(--cloud);
 }
