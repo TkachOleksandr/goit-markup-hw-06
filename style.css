@@ -1,7 +1,6 @@
 body{
     color: #2E2F42;
-    font-family: "Roboto, sans-serif","Raleway", system-ui; 
-    margin: 0;
+    font-family: "Roboto", sans-serif,"Raleway", system-ui; 
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -23,12 +22,9 @@ body{
 
 :root {
     --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
+    --second-family: "Raleway", sans-serif,;
 }
 
-header{
-    height: 72px;
-}
 
 h1{
     color: var(--white);
@@ -93,24 +89,20 @@ a{
     text-transform: uppercase;
     font-family: "Raleway, sans-serif", system-ui;
     font-style: normal;
-    color: var(--iris);
+    color: #4d5ae5;
 }
 
 .logo_part{
-    color:  var(--navy-blue);
+    color: #2e2f42;
 }
 .effective_solutions{
     background-color: var(--navy-blue)  ;
-    height: 600px;
-    text-align: center;
 }
 
 .button{
     color: var(--white);
     background-color: var(--iris);
     border: none;
-    width: 169px;
-    height: 56px;
     border-radius: 4px;
     font-family:  "Roboto", sans-serif;
     font-weight: 500;
@@ -142,12 +134,6 @@ a{
 footer{
     background-color: #2E2F42;
     color: var(--cloud);
-    height: 312px;
-}
-
-.footer_content{
-    width: 264px;
-    height: 112px;
 }
 
 .subtext{
