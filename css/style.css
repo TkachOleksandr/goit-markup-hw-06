@@ -20,12 +20,13 @@ body {
     --dairy: #fcfcfc;
 }
 
-
-h1 {
+.section-title{
     color: var(--white);
     font-size: 56px;
     line-height: 107%;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -102,7 +103,7 @@ ul {
     color: #434455;
 }
 
-.fourthsection-title{
+.fourthsectiontitle{
     font-size: 36px;
     text-align: center;
     line-height: 1.11;
@@ -139,6 +140,8 @@ ul {
     background-color: #FFFFFF;
 }
 
+
+
 .section_title_h2 {
     font-size: 36px;
     line-height: 111%;
@@ -161,7 +164,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif, ;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     color: #4d5ae5;
 }
@@ -176,7 +179,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif, ;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     color: #4d5ae5;
 }
@@ -217,9 +220,8 @@ a {
     background-color: #F4F4FD;
 }
 
-.our_team,
-li {
-    background-color: var(--white);
+.our_team li {
+    background-color: #FFFFFF;
 }
 
 footer {
