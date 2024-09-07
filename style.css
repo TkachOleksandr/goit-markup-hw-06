@@ -46,17 +46,44 @@ ul{
 .contact_info{
     font-style: normal
 }
-.first_part_of_the_list{
+
+.contact{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact:hover{
+    color: #404bbf;
+}
+
+.contact:focus{
+    color: #404bbf;
+}
+.part_of_the_list{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.first_part_of_the_list:hover {
+.part_of_the_list:hover {
     color: #404bbf;
 }
 
-.first_part_of_the_list:focus {
+.part_of_the_list:focus {
     color: #404bbf;
+}
+.section2_title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section_paragraph{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .section-title{
     font-family: "Roboto", system-ui;
@@ -66,10 +93,31 @@ ul{
     text-align: center;
 }
 
+.section2-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.section3_title{
+    line-height: 1.11;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+
+.section_list_item{
+   background-color: #FFFFFF;
+}
 .section_title_h2{
     font-size: 36px;
     line-height: 111%;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color: #2e2f42; 
 }
 
 a{
@@ -84,10 +132,10 @@ a{
 .logo{
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-family: "Raleway," sans-serif,;
+    font-family: "Raleway", sans-serif,;
     font-style: normal;
     color: #4d5ae5;
 }
@@ -99,11 +147,11 @@ span{
     background-color: var(--navy-blue)  ;
 }
 
-.button{
+.service_button{
     color: var(--white);
     background-color: var(--iris);
     border: none;
-    font-family:  "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -123,7 +171,7 @@ span{
     background-color: #404BBF
 }
 .our_team{
-    background-color: var(--cloud);
+    background-color: #F4F4FD;
 }
 
 .our_team,li{
