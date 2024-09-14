@@ -105,7 +105,7 @@ header .container{
     line-height: 8px;
 }
 
-.second_section_list_chapter{
+.second_section_list_chapt{
     width: calc((100% - 3 * 24px) / 4);
 
 }
@@ -122,8 +122,9 @@ header .container{
     padding: 120px 0;
 }
 
-.container h2 .visually-hidden{
-
+.second_section h2 {
+    visibility: hidden;
+    overflow: hidden;
 }
 .part_of_the_list {
     font-weight: 500;
