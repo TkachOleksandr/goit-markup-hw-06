@@ -41,7 +41,7 @@ ul {
     list-style-type: none;
 }
 
-.header_container{
+header .container{
    width: 1158px;
    margin: 0;
    padding-left: 0 15px;
@@ -254,7 +254,7 @@ a {
 
 }
 
-.our_portfolio_conteiner{
+.our_portfolio_section .container{
     width: 1128px;
     height: 1000px;
     display: flex;
@@ -347,7 +347,7 @@ a {
     background-color: #FFFFFF;
 }
 
-.container-ourteam{
+.ourteam .container{
     display: flex;
     flex-direction: column;
     gap: 72px;
@@ -365,7 +365,7 @@ a {
     line-height: 1.5;
     color: #F4F4FD;
 }
-.сontainer-footer{
+footer .container{
     width: 264px;
     height: 112px;
 }
