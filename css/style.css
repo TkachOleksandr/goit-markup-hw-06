@@ -54,7 +54,7 @@ header .container{
     padding-left: 156px;
 }
 
-.navigation{
+.header_navigation{
     display: flex;
     flex-direction: row;
     gap: 76px;
@@ -106,8 +106,7 @@ header .container{
 }
 
 .second_section_list_chapt{
-    width: calc((100% - 3 * 24px) / 4);
-
+    width: calc((100% - 72px) / 4);
 }
 
 .second_section_subtitle {
@@ -272,7 +271,7 @@ a {
     margin: 0;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 24px;
+    row-gap: 48px;
 }
 
 .logo {
