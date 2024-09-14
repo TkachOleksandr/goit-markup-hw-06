@@ -8,35 +8,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+            integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="./index.html" class="logo">Web<span class="logo_part">Studio</span></a>
-            <ul>
-                <li><a href="./index.html" class="part_of_the_list">Studio</a></li>
-                <li><a href="" class="part_of_the_list">Portfolio</a></li>
-                <li><a href="" class="part_of_the_list">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="contact_info">
-            <ul>
-                <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111"  class="contact">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+        <container class="header_container">
+            <div class="navigation">
+                <nav class="navigation">
+                    <a href="./index.html" class="logo">Web<span class="logo_part">Studio</span></a>
+                    <ul class="navigation_list">
+                        <li><a href="./index.html" class="part_of_the_list">Studio</a></li>
+                        <li><a href="" class="part_of_the_list">Portfolio</a></li>
+                        <li><a href="" class="part_of_the_list">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div >
+                <address class="contact_info">
+                    <ul class="info">
+                        <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+                        <li><a href="tel:+110001111111"  class="contact">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+            </div>
+        </container>
         
     </header>
     <main>
         <section class="effective_solutions">
-                <h1 class="section-title">Effective Solutions <br>for Your Business</h1>
+            <container class="effective_solutions_content">              
+                 <h1 class="section-title">Effective Solutions <br>for Your Business</h1>
                 <button type="button" class="service_button">Order Service</button>
+            </container> 
         </section>
         <section>
-            <h2>h2</h2>
-            <ul>
+            <!-- <h2>h2</h2> -->
+            <ul class="second_section">
                 <li>
                     <h3 class="second_section_subtitle">Strategy</h3>
                     <p class="section_paragraph">Our goal is to identify the business <br>problem to walk away with the<br> perfect and creative solution.</p>
@@ -56,8 +66,9 @@
             </ul>
         </section>
         <section class="our_team">
+            <div class="content-box">
                 <h2 class="third_section_title">Our Team</h2>
-                <ul>
+                <ul class="third_section_content">
                     <li class="section_list_item">
                         <img src="./images/mark_guerrero_photo.jpg" alt="Mark Guerrero photo" width="264" height="260">
                         <h3 class="third_section_subtitle">Mark Guerrero</h3>
@@ -79,46 +90,67 @@
                         <p class="subtext ">UI Designer</p>
                     </li>
                 </ul>
+            </div>
         </section>
-        <section class="portfolio_section">
-            <h2 class="fourthsectiontitle">Our Portfolio</h2>
-            <ul>
-                <li>
-                    <img src="./images/banking.jpg" alt="banking photo" width="360" height="300">
-                    <h3 class="fourth_sectionsubtitle">Banking App</h3>
-                    <p class="subtext ">App</p>
-                </li>
-                <li>
-                    <img src="./images/cashlesspayment.jpg" alt="cashlesspayment photo" width="360" height="300">
-                    <h3 class="fourth_sectionsubtitle">Cashless Payment</h3>
-                    <p class="subtext ">Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/meditation.jpg" alt="meditation photo" width="360" height="300">
-                    <h3 class="fourth_sectionsubtitle">Meditation App</h3>
-                    <p class="subtext ">App</p>
-                </li>
-                <li>
-                    <img src="./images/taxiservice.jpg" alt="taxiservice photo" width="360" height="300">
-                    <h3 class="fourth_sectionsubtitle">Taxi Service</h3>
-                    <p class="subtext ">Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/screenillustrations.jpg" alt="screenillustrations photo" width="360" height="300">
-                    <h3 class="fourth_sectionsubtitle">Screen Illustrations</h3>
-                    <p class="subtext">Design</p>
-                </li>
-                <li>
-                    <img src="./images/onlinecourses.jpg" alt="onlinecourses photo" width="360" height="300">
-                    <h3 class="fourth_sectionsubtitle">Online Courses</h3>
-                    <p class="subtext">Marketing</p>
-                </li>
-            </ul>
+        <section>
+            <div class="our_portfolio_content">
+                <h2 class="fourthsectiontitle">Our Portfolio</h2>
+                <div class="our_portfolio_list">
+                    <ul class="our_portfolio_list_half">
+                        <li class="our_portfolio_list_chapter">
+                            <img src="./images/banking.jpg" alt="banking photo" width="360" height="300">
+                            <div class="ourteam_text">
+                                <h3 class="fourth_sectionsubtitle">Banking App</h3>
+                                <p class="subtext ">App</p>
+                            </div>
+                        </li>
+                        <li class="our_portfolio_list_chapter">
+                            <img src="./images/cashlesspayment.jpg" alt="cashlesspayment photo" width="360" height="300">
+                            <div class="ourteam_text">
+                                <h3 class="fourth_sectionsubtitle">Cashless Payment</h3>
+                                <p class="subtext ">Marketing</p>
+                            </div class="ourteam_text">
+                        </li>
+                        <li class="our_portfolio_list_chapter">
+                            <img src="./images/meditation.jpg" alt="meditation photo" width="360" height="300">
+                            <div class="ourteam_text">
+                                <h3 class="fourth_sectionsubtitle">Meditation App</h3>
+                                <p class="subtext ">App</p>
+                            </div>
+                        </li>
+                        </ul>
+                        <ul class="our_portfolio_list_half">
+                            <li class="our_portfolio_list_chapter">
+                                <img src="./images/taxiservice.jpg" alt="taxiservice photo" width="360" height="300">
+                                <div class="ourteam_text">
+                                    <h3 class="fourth_sectionsubtitle">Taxi Service</h3>
+                                    <p class="subtext ">Marketing</p>
+                                </div class="ourteam_text">
+                            </li>
+                            <li class="our_portfolio_list_chapter">
+                                <img src="./images/screenillustrations.jpg" alt="screenillustrations photo" width="360" height="300">
+                                <div class="ourteam_text">
+                                    <h3 class="fourth_sectionsubtitle">Screen Illustrations</h3>
+                                    <p class="subtext">Design</p>
+                                </div>
+                            </li>
+                            <li class="our_portfolio_list_chapter">
+                                <img src="./images/onlinecourses.jpg" alt="onlinecourses photo" width="360" height="300">
+                                <div class="ourteam_text">
+                                    <h3 class="fourth_sectionsubtitle">Online Courses</h3>
+                                    <p class="subtext">Marketing</p>
+                                </div>
+                            </li>
+                       </ul>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer_chapter">
+        <div class="footer-content">
             <a href="./index.html" class="second_logo">Web<span class="second_logo_part">Studio</span></a>
-            <p class="footer_text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            <p class="footer_text">Increase the flow of customers and <br> sales for your business with digital <br>marketing & growth solutions.</p>
+        </div>
     </footer>
 </body>
 </html>
