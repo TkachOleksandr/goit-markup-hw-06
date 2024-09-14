@@ -21,6 +21,10 @@ body {
     --dairy: #fcfcfc;
 }
 
+.part_of_the_section_list{
+   width: calc((100% - 72px) / 4);
+  
+}
 .header_section{
     border-bottom: 1px solid #e7e9fc;
     height: 72px;
@@ -302,10 +306,7 @@ a {
     color: #F4F4FD;
 }
 
-.part_of_the_section_list{
-  width:calc((100% - 72px) / 4);
-  
-}
+
 
 .effective_solutions .container{
    display: flex;
