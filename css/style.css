@@ -54,7 +54,7 @@ header .container{
     padding-left: 156px;
 }
 
-.header_navigation{
+.header_nav{
     display: flex;
     flex-direction: row;
     gap: 76px;
@@ -105,8 +105,8 @@ header .container{
     line-height: 8px;
 }
 
-.second_section_list_chapt{
-    width: calc((100% - 72px) / 4);
+.second_list_chapter{
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .second_section_subtitle {
@@ -122,8 +122,17 @@ header .container{
 }
 
 .second_section h2 {
-    visibility: hidden;
-    overflow: hidden;
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 .part_of_the_list {
     font-weight: 500;
