@@ -303,7 +303,9 @@ a {
 }
 
 .part_of_the_section_list{
-  width: calc((100% - 72px) / 4);
+  width:calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  
 }
 
 .effective_solutions .container{
