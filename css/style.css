@@ -42,9 +42,10 @@ ul {
 }
 
 header .container{
+    display: flex;
    width: 1158px;
-   margin: 0;
-   padding-left: 0 15px;
+   margin: 0 auto;
+   padding: 0 15px;
 }
 .header_content{
     display: flex;
@@ -105,7 +106,7 @@ header .container{
 }
 
 .second_section_list_chapter{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 
 }
 
@@ -294,7 +295,7 @@ a {
     color: #F4F4FD;
 }
 
-.container_effective_solutions{
+.effective_solutions .container{
    display: flex;
    flex-direction: column;
    gap: 46px;
