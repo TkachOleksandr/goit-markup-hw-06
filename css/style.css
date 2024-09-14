@@ -105,10 +105,6 @@ header .container{
     line-height: 8px;
 }
 
-.second_list_chapter{
-    flex-basis: calc((100% - 3 * 24px) / 4)
-}
-
 .second_section_subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -293,6 +289,7 @@ a {
     font-style: normal;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .logo_part {
@@ -302,6 +299,10 @@ a {
 
 .second_logo_part{
     color: #F4F4FD;
+}
+
+.second_list_chapter{
+  width: calc((100% - 72px) / 4);
 }
 
 .effective_solutions .container{
