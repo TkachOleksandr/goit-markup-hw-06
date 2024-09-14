@@ -134,6 +134,7 @@ header .container{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .part_of_the_list:hover {
@@ -289,7 +290,7 @@ a {
     font-style: normal;
     color: #4d5ae5;
     margin-right: 76px;
-    padding: 24px 0;
+    
 }
 
 .logo_part {
@@ -301,7 +302,7 @@ a {
     color: #F4F4FD;
 }
 
-.second_list_chapter{
+.part_of_the_section_list{
   width: calc((100% - 72px) / 4);
 }
 
