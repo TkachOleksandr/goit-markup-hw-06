@@ -21,7 +21,7 @@ body {
     --dairy: #fcfcfc;
 }
 
-.part_of_the_section_list{
+.part_of_the_second_section_list{
    width: calc((100% - 72px) / 4);
   
 }
