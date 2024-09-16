@@ -21,6 +21,9 @@ body {
     --dairy: #fcfcfc;
 }
 
+h1, h2, h3, h4, p{
+    margin: 0;
+}
 .part_of_the_second_section_list{
    width: calc((100% - 72px) / 4);
    padding: 0;
@@ -28,7 +31,7 @@ body {
 }
 .header_section{
     border-bottom: 1px solid #e7e9fc;
-    height: 72px;
+   
 }
 
 .section-title{
@@ -38,16 +41,21 @@ body {
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     text-align: center;
     letter-spacing: 0.02em;
-    margin: 0;
+    margin: 0 auto 48px auto;
     max-width: 496px;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 header .container{
     display: flex;
+    align-items: center;
+}
+.container{
    width: 1158px;
    margin: 0 auto;
    padding: 0 15px;
@@ -61,8 +69,6 @@ header .container{
 
 .header_nav{
     display: flex;
-    flex-direction: row;
-    gap: 76px;
     align-items: center;
 }
 
@@ -85,7 +91,8 @@ header .container{
 }
 
 .contact_info {
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
 }
 
 .contact {
@@ -105,9 +112,7 @@ header .container{
 .second_section_list{
     display: flex;
     gap: 24px;
-    margin: 0;
     line-height: 8px;
-    padding-left: 0 ;
 }
 
 .second_section_subtitle {
@@ -122,7 +127,7 @@ header .container{
     padding: 120px 0;
 }
 
-.second_section h2 {
+.visually_hidden{
     position: absolute;
         width: 1px;
         height: 1px;
@@ -146,6 +151,7 @@ header .container{
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .part_of_the_list:hover {
@@ -180,14 +186,8 @@ header .container{
 
 .third_section_content{
     display: flex;
-    flex-direction: row;
-    gap: 24px; 
+    gap: 24px;
     text-align: center;
-    width: 1128px;
-    height: 380px;
-    padding: 0;
-    margin: 0
-
 }
 
 .section_paragraph {
@@ -209,8 +209,6 @@ header .container{
 }
 
 .our_portfolio_list_chapter{
-    background-color: #E7E9FC;
-    height: 420px;
     width: calc((100% - 48px) / 3);
 }
 
@@ -272,20 +270,10 @@ a {
 
 }
 
-.our_portfolio_section .container{
-    width: 1128px;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    margin: 120px 156px 120px 156px;
-}
 
 .our_portfolio_list{
     display: flex;
     flex-direction: row;
-    padding: 0;
-    margin: 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -314,20 +302,8 @@ a {
 }
 
 
-
-.effective_solutions .container{
-   display: flex;
-   flex-direction: column;
-   gap: 46px;
-   align-items: center;
-   height: 224px;
-   width: 496px;
-}
-
 .effective_solutions {
     background-color: var(--navy-blue);
-    height: 600px;
-    width: 1440px;
     padding: 188px 0;
 }
 
@@ -345,6 +321,7 @@ a {
     height: 56px;
     display: block;
     min-width: 169px;
+    margin: 0 auto 0 auto;
 }
 
 
@@ -359,8 +336,6 @@ a {
 
 .our_team {
     background-color: #F4F4FD;
-    height: 732px;
-    width: 1440px;
     padding: 120px 0;
 }
 
@@ -376,25 +351,19 @@ a {
 .footer_chapter {
     background-color: #2E2F42;
     color: var(--cloud);
-    height: 312px;
     padding: 100px 0;
-    width: 1440px;
 }
 
 .footer_text {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #F4F4FD;
-}
-footer .container{
     width: 264px;
-    height: 112px;
 }
 .subtext {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 .second_logo{
     font-weight: 700;
