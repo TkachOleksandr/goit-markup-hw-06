@@ -473,7 +473,7 @@ footer .container {
 .footer-content{
     display: flex;
     align-items: baseline;
-
+    margin-left: 156px;
 }
 
 .subtext {
