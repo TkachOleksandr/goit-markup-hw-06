@@ -250,7 +250,7 @@ header .container{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our_portfolio_list_chapter:hover {
+.our_portfolio_photo_text:hover {
     transform: translateY(0%);
 }
 
@@ -521,6 +521,10 @@ img{
 }
 
 .social-link-part{
+    width: 40px;
+    height: 40px;
+}
+.social-links-part {
     width: 40px;
     height: 40px;
 }
