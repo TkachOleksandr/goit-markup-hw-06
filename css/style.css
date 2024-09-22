@@ -29,6 +29,19 @@ h1, h2, h3, h4, p{
    padding: 0;
    margin: 0;
 }
+
+.part_of_the_second_section_list div{
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+}
+
+.part_of_the_second_section_list div svg{
+   margin: g24px 100px;
+}
+
 .header_section{
     border-bottom: 1px solid #e7e9fc;
    
@@ -303,8 +316,8 @@ a {
 
 
 .effective_solutions {
-    background-color: var(--navy-blue);
     padding: 188px 0;
+    background-image: url(/images/background-photo.jpg);
 }
 
 
@@ -348,10 +361,29 @@ a {
     flex-direction: column;
     gap: 72px;
 }
+
+.employee_social_links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    width: 232px;
+    height: 40px;
+    margin: 8px 0 0 16px;
+}
+
 .footer_chapter {
     background-color: #2E2F42;
     color: var(--cloud);
     padding: 100px 0;
+    display: flex;
+    gap: 120px;
+}
+
+.footer_chapter .container {
+   width: 264px;
+   margin: 0 0 0 156px;
+   padding: 0;
 }
 
 .footer_text {
@@ -379,4 +411,17 @@ a {
 }
 img{
     display: block
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social_links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
 }
