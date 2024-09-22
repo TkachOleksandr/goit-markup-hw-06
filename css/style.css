@@ -422,10 +422,9 @@ a {
     padding: 0;
     display: flex;
     gap: 24px;
-    width: 232px;
     height: 40px;
     margin: 8px 0 0 16px;
-    justify-content: center
+    justify-content: center;
 }
 
 .employee_svg{
