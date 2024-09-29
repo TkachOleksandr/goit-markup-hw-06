@@ -170,7 +170,6 @@ header .container{
         margin: -1px;
         border: 0;
         padding: 0;
-    
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
@@ -758,6 +757,7 @@ img{
 
 .modal-icon{
     position: absolute;
+    fill: #2E2F42;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
@@ -819,7 +819,7 @@ img{
     fill: transparent;
 }
 
-.checkbox-input:checked  .modal-checkbox{
+.checkbox-input:checked + .checkbox-text >  .modal-checkbox{
    background-color: #404bbf;
    border: none;
    fill: #f4f4fd;
