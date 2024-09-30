@@ -845,6 +845,7 @@ img{
 .modal-button{
     min-width: 169px;
     height: 56px;
+    display: block;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -854,5 +855,6 @@ img{
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
-    margin-left: 95px;
+    margin-left: auto;
+    margin-right: auto;
 }
