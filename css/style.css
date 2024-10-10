@@ -1179,15 +1179,15 @@ img{
 .menu-tel{
     margin-bottom: 24px;
 }
-.address-text{
+.adress-text{
     font-family: "Roboto", sans-serif;
     font-size: 20px medium; 
 }
 
-.address-text:hover{
+.adress-text:hover{
    color: #4D5AE5;
 }
-.address-text:focus {
+.adress-text:focus {
     color: #4D5AE5;
 }
 
