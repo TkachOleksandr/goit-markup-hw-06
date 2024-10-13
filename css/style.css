@@ -145,6 +145,7 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 16px;
 }
 
 .contact:hover {
@@ -943,7 +944,7 @@ img{
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi){
     .effective_solutions {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/banking-app_1440px@2.jpg); 
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg_1440px@2.jpg); 
         width: 100%;
     }
 }
@@ -988,6 +989,10 @@ img{
 @media   (max-width: 1158px) and (min-width: 768px){
     .container {
         max-width: 768px;
+        
+    }
+    .contact{
+        font-size: 12px;
     }
     .section-title{
         margin-bottom: 36px;
@@ -1006,7 +1011,6 @@ img{
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0;
-        padding: 0;
         max-width: 584px;
         row-gap: 72px;
     }
@@ -1017,11 +1021,11 @@ img{
         margin: 0;
     }
     .third_section_content{
-        row-gap: 24px;
-        column-gap: 64px;
+        row-gap: 64px;
+        column-gap: 24px;
     }
     .our_portfolio{
-        max-width: 736px;
+        max-width: 768x;
     }
     .second_section_list{
         max-width: 736px;
@@ -1242,7 +1246,7 @@ img{
 }
 @media (min-width: 320px) and (max-width: 768px) {
     .our_portfolio{
-        max-width: 736px;
+        max-width: 320px;
         
     }
     .section-title{
@@ -1311,6 +1315,7 @@ img{
     }
     .third_section_content{
         flex-direction: column;
+        row-gap: 72px;
     }
     .our_portfolio_list{
         flex-direction: column;
